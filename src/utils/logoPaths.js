@@ -4,8 +4,8 @@ import { css } from 'glamor'
 
 const styles = {
   ico: css({
-    width: 520,
-    height: 520,
+    width: 3280,
+    height: 280,
     '@media(max-width: 720px)': {
       width: 320,
       height: 320,

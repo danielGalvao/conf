@@ -6,11 +6,13 @@ import Infos from './Infos';
 import Title from './Title';
 import Ticket from './Ticket';
 
-import BackgroundPattern from '../media/images/backgroundPattern.png';
+import BackgroundPattern from '../media/images/macaco.jpg';
 
 const styles = {
   container: css({
     backgroundImage: `url(${BackgroundPattern})`,
+    backgroundPosition: 'left center',
+    backgroundRepeat: 'no-repeat',
     color: 'white',
     width: '100%',
     minWidth: '100%',
@@ -18,6 +20,9 @@ const styles = {
     alignItems: 'center',
     flexDirection: 'column',
     justifyContent: 'space-between',
+    '@media(max-width: 720px)': {
+      backgroundPosition: 'left center',
+    }
   }),
 };
 
